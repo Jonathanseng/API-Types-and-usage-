@@ -1,0 +1,48 @@
+Here is an example of a simple WebSocket application that uses JavaScript on the client-side and Node.js on the server-side:
+
+Client-side code:
+// Create WebSocket connection
+const socket = new WebSocket('ws://localhost:3000');
+
+// Connection opened
+socket.addEventListener('open', (event) => {
+    socket.send('Hello Server!');
+});
+
+// Listen for messages
+socket.addEventListener('message', (event) => {
+    console.log('Message from server:', event.data);
+});
+
+// Connection closed
+socket.addEventListener('close', (event) => {
+    console.log('Server closed connection');
+});
+
+Server-side code:
+
+const WebSocket = require('ws');
+
+// Create WebSocket server
+const wss = new WebSocket.Server({ port: 3000 });
+
+// Listen for connections
+wss.on('connection', (ws) => {
+    console.log('Client connected');
+
+    // Listen for messages
+    ws.on('message', (message) => {
+        console.log('Message from client:', message);
+        ws.send('Hello Client!');
+    });
+
+    // Connection closed
+    ws.on('close', () => {
+        console.log('Client disconnected');
+    });
+});
+
+
+This example sets up a WebSocket server on port 3000 using the ws library in Node.js. The client-side JavaScript code creates a WebSocket connection to the server and sends a message when the connection is opened. The server-side JavaScript code listens for connections, receives messages from clients, and sends messages back to clients.
+
+This is just a basic example, but it demonstrates how WebSocket can be used to enable real-time, bidirectional communication between clients and servers.
