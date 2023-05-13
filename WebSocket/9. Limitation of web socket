@@ -1,0 +1,16 @@
+
+WebSocket has several limitations that may affect its use in certain situations:
+
+Browser compatibility: Although most modern browsers support WebSocket, some older browsers do not, which may limit the reach of applications that rely on WebSocket.
+
+Network infrastructure compatibility: WebSocket may not be compatible with existing network infrastructure, such as load balancers and firewalls, which may need to be configured to allow WebSocket traffic.
+
+Resource consumption: Since WebSocket maintains a persistent connection between clients and servers, it can increase the load on the server, especially if a large number of clients are connected simultaneously.
+
+Security concerns: WebSocket uses a persistent connection, which can increase the risk of security vulnerabilities such as cross-site scripting (XSS) attacks and other types of attacks. Proper security measures should be implemented to mitigate these risks.
+
+Lack of reliable delivery: WebSocket does not provide built-in reliable delivery mechanisms. If reliable delivery is required, it must be implemented on top of WebSocket.
+
+Complexity: WebSocket requires a server-side implementation to establish the connection and handle the communication between clients and servers. This may require additional server resources and may increase the complexity of the application architecture.
+
+Overall, while WebSocket provides powerful real-time communication capabilities, it also has several limitations and potential challenges that need to be considered when building applications that rely on it.
