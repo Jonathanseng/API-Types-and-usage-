@@ -1,0 +1,14 @@
+
+SOAP API (Simple Object Access Protocol) has several strong points that make it a popular choice for building web services:
+
+Standardization: SOAP is a standardized protocol for exchanging structured information between applications. It provides a well-defined set of rules and guidelines for encoding messages, exchanging them between applications, and describing the interface of a web service using WSDL (Web Services Description Language). This standardization makes it easier for different systems to communicate with each other, regardless of their underlying technology or platform.
+
+Security: SOAP API supports a variety of security features, such as message-level encryption, digital signatures, and authentication. This makes it a secure choice for transmitting sensitive data over the internet.
+
+Flexibility: SOAP API supports a variety of message exchange patterns, including request-response, one-way, and callback. It also supports a range of transport protocols, such as HTTP, SMTP, and TCP. This flexibility allows developers to choose the most appropriate protocol and pattern for their application.
+
+Extensibility: SOAP API allows for the use of custom message headers, which can be used to extend the functionality of the protocol. This allows developers to add custom features to their web services, such as logging, tracing, or monitoring.
+
+Language independence: SOAP API is language-independent, which means that it can be used with a variety of programming languages. This makes it easier for developers to build web services using the language and framework of their choice.
+
+Overall, SOAP API's standardization, security, flexibility, extensibility, and language independence make it a strong choice for building web services that require secure, reliable, and standardized communication between different applications.
