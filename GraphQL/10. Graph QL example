@@ -1,0 +1,67 @@
+Sure, here's a simple example of GraphQL code:
+
+Let's say we have a simple schema for a blog post, which has a title, a body, and an author:
+
+type Post {
+  id: ID!
+  title: String!
+  body: String!
+  author: Author!
+}
+
+type Author {
+  id: ID!
+  name: String!
+  email: String!
+}
+
+type Query {
+  post(id: ID!): Post
+  author(id: ID!): Author
+}
+
+This schema defines two types, Post and Author, as well as a Query type that allows clients to query for specific posts or authors by ID.
+
+We can then define resolvers that handle queries for the Post and Author types. Here's an example implementation using JavaScript:
+
+const posts = [
+  {
+    id: '1',
+    title: 'My First Blog Post',
+    body: 'This is my first blog post!',
+    authorId: '1',
+  },
+  {
+    id: '2',
+    title: 'My Second Blog Post',
+    body: 'This is my second blog post!',
+    authorId: '2',
+  },
+];
+
+const authors = [
+  {
+    id: '1',
+    name: 'John Smith',
+    email: 'john@example.com',
+  },
+  {
+    id: '2',
+    name: 'Jane Doe',
+    email: 'jane@example.com',
+  },
+];
+
+const resolvers = {
+  Query: {
+    post: (parent, { id }) => posts.find(post => post.id === id),
+    author: (parent, { id }) => authors.find(author => author.id === id),
+  },
+  Post: {
+    author: post => authors.find(author => author.id === post.authorId),
+  },
+};
+
+In this example, we define two arrays of mock data for posts and authors, and then define resolvers for the Query and Post types. The post and author resolvers use the find method to return the post or author with the specified ID, while the Post resolver defines how to resolve the author field by looking up the corresponding author based on the authorId.
+
+This is just a simple example, but it shows how GraphQL can be used to define a schema and resolver functions that allow clients to query for specific data in a flexible and efficient way.
