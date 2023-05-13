@@ -1,0 +1,6 @@
+
+SOAP (Simple Object Access Protocol) API is a messaging protocol used to exchange structured information between applications over the internet. It is a standard protocol for accessing web services and allows communication between different software systems regardless of their programming language or operating system.
+
+SOAP API works by sending XML-based messages over HTTP, SMTP or other communication protocols. The messages contain information about the operation to be performed, the data to be processed and the response to be returned. The SOAP API message format is defined by a WSDL (Web Services Description Language) document, which describes the available operations, data types and message format for the web service.
+
+SOAP API is widely used in enterprise applications for integration between different software systems, such as CRM, ERP, and other business applications. However, its usage is declining in favor of more lightweight alternatives like REST (Representational State Transfer) API.
