@@ -1,0 +1,15 @@
+In GraphQL, a schema is used to define the types of data that can be queried and the relationships between them. Here are some of the key components of a GraphQL schema:
+
+Types: Types represent the data that can be queried in a GraphQL API. For example, you might have types for "User", "Post", "Comment", etc.
+
+Fields: Fields represent the properties of a type that can be queried. For example, a "User" type might have fields for "name", "email", "posts", etc.
+
+Queries: Queries define the entry points into the API and the types of data that can be queried. For example, you might have queries for "user", "post", "comment", etc.
+
+Mutations: Mutations allow clients to modify data in the API. For example, you might have mutations for "createUser", "updatePost", "deleteComment", etc.
+
+Subscriptions: Subscriptions allow clients to receive real-time updates from the API. For example, you might have a subscription for "newPost", which notifies clients when a new post is created.
+
+Directives: Directives provide a way to customize the behavior of GraphQL queries and mutations. For example, you might have a directive for "include", which allows clients to conditionally include or exclude fields from a query based on a variable.
+
+These are just a few of the key components of a GraphQL schema. Other concepts in GraphQL include resolvers, which define how data is fetched from a data source, and fragments, which allow clients to reuse parts of a query across multiple queries.
