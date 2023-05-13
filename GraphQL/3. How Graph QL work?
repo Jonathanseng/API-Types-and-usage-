@@ -1,0 +1,14 @@
+
+GraphQL works by allowing clients to specify exactly what data they need, and then providing that data in a single response. Here's a brief overview of how it works:
+
+Clients send a GraphQL query to the server. The query specifies the data that the client wants to retrieve, along with any arguments or variables that the query requires.
+
+The server receives the query and validates it against the GraphQL schema. The schema defines the types of data that can be queried and the relationships between them.
+
+The server then executes the query by resolving each field in the query. Resolvers are functions that fetch the data for each field and return it in the format specified by the schema.
+
+As the server resolves each field, it builds a tree of data that corresponds to the query. This tree represents the response that the server will send back to the client.
+
+Once the server has resolved all the fields in the query, it sends the response back to the client. The response contains the data requested by the client, along with any errors or metadata.
+
+GraphQL's ability to allow clients to specify exactly what data they need in a single request, and its use of resolvers to fetch that data, make it a powerful tool for building efficient and flexible APIs.
