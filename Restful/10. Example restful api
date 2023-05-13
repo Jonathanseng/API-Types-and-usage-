@@ -1,0 +1,26 @@
+Here is an example of a RESTful API endpoint for retrieving a list of users:
+
+HTTP Method: GET
+URL: https://example.com/api/users
+
+Response:
+
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john@example.com"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@example.com"
+        }
+    ]
+}
+
+
+In this example, a GET request is sent to the server at the specified URL, which is an API endpoint for retrieving a list of users. The server responds with a JSON object containing an array of user objects, each with an ID, name, and email.
+
+This is a simple example, but RESTful APIs can be used to perform a wide range of CRUD operations on resources, including creating, reading, updating, and deleting data.
