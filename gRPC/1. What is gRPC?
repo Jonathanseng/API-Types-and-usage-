@@ -1,0 +1,10 @@
+
+gRPC is a high-performance, open-source remote procedure call (RPC) framework originally developed by Google. It allows clients to call methods on a server as if they were local functions, while abstracting away many of the complexities of distributed systems programming, such as serialization, load balancing, and authentication.
+
+gRPC is designed to be fast, efficient, and scalable, making it well-suited for building microservices architectures and other distributed systems. It uses the Protocol Buffers data format, which is more compact and faster than other serialization formats like JSON or XML. It also uses HTTP/2 as its underlying transport protocol, which allows for efficient multiplexing of multiple RPCs over a single connection.
+
+gRPC supports multiple programming languages, including C++, Java, Python, Go, and many others. It also supports multiple platforms, including Linux, macOS, Windows, and mobile platforms like iOS and Android.
+
+One of the main advantages of gRPC is its ability to generate client and server code from a single interface definition file (IDL) using a code generator tool. This makes it easy to define and maintain APIs across different programming languages and platforms.
+
+Overall, gRPC is a modern, efficient, and flexible RPC framework that offers many advantages over traditional RPC protocols like SOAP and REST.
