@@ -1,0 +1,8 @@
+
+WebSocket is not directly related to transaction per second (TPS), which is a measure of the number of transactions that can be processed by a system in a given time period.
+
+WebSocket is a communication protocol that enables real-time, bidirectional communication between clients and servers, which can be used to build applications that require real-time updates and collaboration. The number of WebSocket connections that can be handled by a server depends on various factors such as the server resources, network infrastructure, and the complexity of the application.
+
+On the other hand, TPS is a measure of how many transactions a system can handle in a given time period, which is often used in the context of financial trading, online payments, and other high-volume transactional systems. TPS depends on factors such as the processing power of the system, the efficiency of the algorithms used, and the network latency.
+
+While WebSocket can be used to build applications that process a large number of real-time transactions, it is not directly related to the TPS of a system. However, WebSocket can be used to enable real-time updates and collaboration in high-volume transactional systems, which can enhance the user experience and improve the overall efficiency of the system.
