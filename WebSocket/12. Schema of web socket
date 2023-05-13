@@ -1,0 +1,10 @@
+
+WebSocket does not have a specific schema like other communication protocols such as HTTP or FTP.
+
+WebSocket is a communication protocol that operates over TCP, which provides a reliable, bidirectional, and persistent connection between clients and servers. WebSocket uses a simple handshake process to establish the connection between the client and server, and once the connection is established, it allows messages to be sent in both directions without the overhead of HTTP request-response cycles.
+
+The WebSocket protocol consists of two parts: the handshake and the message exchange. The handshake is a simple process that involves an HTTP upgrade request from the client and an HTTP response from the server to establish the WebSocket connection. Once the connection is established, messages can be sent in both directions without the overhead of HTTP request-response cycles.
+
+The message exchange in WebSocket is not limited to a specific schema, but it can be any binary or text-based data that can be serialized and deserialized by the client and server. This gives developers the flexibility to design their own message formats and protocols to suit their application's needs.
+
+Overall, WebSocket does not have a specific schema, but it provides a reliable and efficient way to enable real-time, bidirectional communication between clients and servers, which can be used to build a wide range of real-time applications and services
