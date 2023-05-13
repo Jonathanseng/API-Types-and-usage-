@@ -1,0 +1,14 @@
+
+SOAP API works by sending structured data in XML (Extensible Markup Language) format over the internet. Here's how it works:
+
+A SOAP client sends a request to a SOAP server. The request is sent over HTTP or HTTPS protocol, using an XML message.
+
+The SOAP server receives the request and interprets the XML message, extracting the necessary data and processing the request.
+
+The server then sends a response back to the client in the form of another XML message, using the same protocol as the request.
+
+The client receives the response, extracts the data, and processes it according to the application's requirements.
+
+SOAP API messages are typically composed of three parts: the envelope, header, and body. The envelope contains information about the message, such as the version of the SOAP protocol being used, the encoding format, and any error messages. The header contains additional information, such as security credentials, routing information, and other metadata. The body contains the actual data being transmitted between the client and server.
+
+SOAP API relies heavily on WSDL (Web Services Description Language), which is an XML-based language used to describe the structure and function of web services. A WSDL document provides a standardized way to describe a web service, including the available operations, input and output parameters, data types, and other metadata. The WSDL document is used by the SOAP client to generate code that can be used to call the web service methods.
