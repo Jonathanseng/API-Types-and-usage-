@@ -1,0 +1,18 @@
+
+gRPC is a high-performance, open-source remote procedure call (RPC) framework developed by Google. Here are some of the key attributes of gRPC:
+
+Protocol Buffers: gRPC uses Protocol Buffers as its default serialization format. Protocol Buffers is a language-agnostic binary serialization format that is designed for efficient data storage and transmission.
+
+Strongly typed APIs: gRPC APIs are defined using Protocol Buffers, which allows for strongly typed APIs. This means that clients and servers can share a common understanding of the API contract, which can help to reduce errors and make it easier to maintain the API over time.
+
+Bi-directional streaming: gRPC supports bi-directional streaming, which means that both the client and the server can send multiple messages over a single connection. This can help to reduce latency and improve performance, especially for long-lived connections.
+
+Unary and server streaming: In addition to bi-directional streaming, gRPC also supports unary RPCs (where the client sends a single request and the server sends a single response) and server streaming RPCs (where the server sends multiple responses for a single request).
+
+Language support: gRPC supports a wide range of programming languages, including C++, Java, Python, Ruby, and many others.
+
+Interoperability: gRPC can interoperate with other systems using different protocols, such as HTTP/1.1, HTTP/2, or raw TCP. This can make it easier to integrate gRPC with existing systems and services.
+
+Load balancing: gRPC supports client-side load balancing, which allows clients to distribute requests across multiple backend servers. This can help to improve performance and reliability.
+
+These are just a few of the key attributes of gRPC. Other features of gRPC include support for authentication and authorization, error handling, and deadline enforcement.
