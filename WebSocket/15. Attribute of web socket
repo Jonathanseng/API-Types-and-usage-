@@ -1,0 +1,18 @@
+
+WebSocket is a communication protocol that provides a set of attributes to enable real-time, bidirectional communication between clients and servers. Here are some of the key attributes of WebSocket:
+
+Persistent Connection: WebSocket provides a persistent connection between clients and servers, which allows for real-time communication without the overhead of HTTP request-response cycles. This means that once the WebSocket connection is established, the client and server can exchange messages in real-time without having to establish a new connection for each message.
+
+Low Latency: WebSocket provides low-latency communication between clients and servers by eliminating the overhead of HTTP request-response cycles. This results in faster and more efficient communication, which can improve the user experience and reduce server load.
+
+Full Duplex Communication: WebSocket enables full-duplex communication between clients and servers, which means that both parties can send and receive messages simultaneously. This is useful for applications that require real-time updates, such as chat applications, online gaming, and live streaming.
+
+Binary and Text-Based Data Transmission: WebSocket supports the transmission of both binary and text-based data, which gives developers the flexibility to design their own message formats and protocols to suit their application's needs.
+
+Scalability: WebSocket can be used to build highly scalable applications by enabling efficient communication between clients and servers. This is useful for applications that require high throughput and low latency, such as online trading platforms and real-time collaboration tools.
+
+Cross-Platform Support: WebSocket is supported by all modern web browsers and can be used to build applications for desktop and mobile platforms. This makes it a versatile communication protocol that can be used to build a wide range of applications and services.
+
+Secure Communication: WebSocket supports secure communication using SSL/TLS encryption, which ensures that the data transmitted between clients and servers is protected from eavesdropping and tampering.
+
+Overall, WebSocket provides a set of attributes that enable efficient and reliable communication between clients and servers in real-time applications and services. Its attributes include a persistent connection, low latency, full-duplex communication, support for binary and text-based data transmission, scalability, cross-platform support, and secure communication.
