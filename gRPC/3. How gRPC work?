@@ -1,0 +1,16 @@
+
+gRPC uses the HTTP/2 protocol for communication between the client and the server. When a client wants to call a method on a gRPC service, it creates a stub object that provides a method for each of the methods defined in the service interface.
+
+Here are the high-level steps of how a gRPC call works:
+
+Client calls a method: The client calls a method on the stub object provided by the gRPC client library. The stub object takes care of serializing the method parameters into a binary format that can be transmitted over the wire.
+
+Request is sent to the server: The serialized request is sent over an HTTP/2 connection to the gRPC server. The server responds with the serialized response.
+
+Server processes the request: The server receives the request and deserializes it back into its original format. It then processes the request and generates a response.
+
+Response is sent to the client: The serialized response is sent back over the HTTP/2 connection to the client. The client then deserializes the response and returns it to the calling code.
+
+Under the hood, gRPC uses Protocol Buffers as the default serialization format, but it also supports other formats like JSON and XML. The use of HTTP/2 allows for efficient multiplexing of multiple RPCs over a single connection, as well as support for server-side streaming, client-side streaming, and bidirectional streaming.
+
+Overall, gRPC offers a modern and efficient approach to remote procedure calls, making it a popular choice for building microservices and other distributed systems.
