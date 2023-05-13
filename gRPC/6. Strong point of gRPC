@@ -1,0 +1,14 @@
+
+gRPC is a high-performance and efficient framework that offers several benefits over traditional RPC protocols. Here are some of the strong points of gRPC:
+
+Efficient Communication: gRPC uses Protocol Buffers for message serialization, which is a highly efficient binary format that reduces the size of messages sent over the network. This results in faster communication between services and reduces network bandwidth usage.
+
+Multiple Language Support: gRPC supports multiple programming languages, including C++, Java, Python, Go, Ruby, and many more. This allows services to be written in different languages and still communicate efficiently with each other.
+
+Streaming Support: gRPC supports both client-side and server-side streaming, allowing for efficient communication of large datasets. This is useful in applications that require real-time data transfer or continuous streaming of data.
+
+Code Generation: gRPC provides tooling that generates code for both the server and client, reducing the amount of boilerplate code that needs to be written. This makes it easier to create gRPC services and reduces development time.
+
+Interoperability: gRPC is built on HTTP/2, which is a widely adopted standard for network communication. This allows gRPC to interoperate with other systems that use HTTP/2, such as web browsers and other network-based applications.
+
+Overall, gRPC is a high-performance and efficient framework that supports multiple programming languages, streaming, and code generation. Its efficient communication and interoperability make it a popular choice for building microservices and other distributed systems.
