@@ -1,0 +1,16 @@
+
+gRPC uses a client-server architecture that is based on the Remote Procedure Call (RPC) model. The architecture of gRPC includes the following components:
+
+Service Definition: gRPC uses Protocol Buffers to define the service interface and the messages that are exchanged between the client and the server. The service definition is written in a .proto file.
+
+Client: The gRPC client initiates the RPC call and sends a request message to the server.
+
+Server: The gRPC server receives the request message from the client and processes it. It then sends a response message back to the client.
+
+Stub: The client-side stub is responsible for marshaling the request message and sending it over the network to the server. The server-side stub is responsible for unmarshaling the request message and passing it to the server implementation.
+
+Code generation: gRPC uses code generation to generate client and server stubs from the service definition. The generated code can be used to implement the client and server in various programming languages, such as C++, Java, Python, and Go.
+
+Transport: gRPC uses HTTP/2 as the underlying transport protocol. This provides several benefits, such as multiplexing, flow control, and header compression.
+
+Overall, the architecture of gRPC is designed to be simple and efficient, while providing a standardized and scalable way to implement RPC services over the network.
