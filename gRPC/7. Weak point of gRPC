@@ -1,0 +1,14 @@
+
+While gRPC has several strong points, there are also some limitations and weaknesses to consider when using this framework. Here are some of the weak points of gRPC:
+
+Complexity: gRPC can be more complex to set up and configure compared to other RPC protocols. It requires the use of Protocol Buffers and may require additional setup and configuration for advanced features like authentication and encryption.
+
+Integration with Legacy Systems: gRPC is a relatively new protocol and may not be compatible with legacy systems that use different communication protocols. This can make it difficult to integrate with existing systems, which can slow down adoption.
+
+Language Support: Although gRPC supports multiple programming languages, some languages may have limited or incomplete support for certain features. This can make it difficult to use gRPC in some projects, especially if the language of choice is not fully supported.
+
+Learning Curve: gRPC requires a learning curve for developers who are new to the framework. The use of Protocol Buffers and the need to understand concepts like streaming and flow control can make it more challenging to use than simpler RPC protocols.
+
+Performance Overhead: gRPC adds some overhead to communication due to the use of Protocol Buffers and HTTP/2. While this overhead is usually negligible in most cases, it can be a concern in high-performance systems where every bit of performance counts.
+
+Overall, while gRPC offers many benefits, it is important to consider its limitations and weaknesses before deciding to use it in a project. Developers should carefully evaluate their needs and the requirements of their system to determine if gRPC is the best choice for their project.
