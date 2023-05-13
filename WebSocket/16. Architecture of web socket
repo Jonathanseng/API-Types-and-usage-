@@ -1,0 +1,16 @@
+
+The WebSocket protocol is based on a simple client-server architecture, where the client and server exchange messages over a persistent, bi-directional connection. Here is a high-level overview of the architecture of WebSocket:
+
+Client: The client is typically a web browser or a mobile application that communicates with the server over the WebSocket protocol. The client sends messages to the server and receives messages from the server in real-time.
+
+Server: The server is responsible for accepting incoming connections from clients and managing the WebSocket connections. The server receives messages from clients and sends messages to clients in real-time.
+
+WebSocket Protocol: The WebSocket protocol is a standardized communication protocol that enables real-time, bi-directional communication between clients and servers over a persistent connection.
+
+Application Layer: The application layer consists of the software and logic that runs on the client and server to handle the WebSocket communication. This can include custom message formats, data validation, and application-specific business logic.
+
+Transport Layer: The transport layer is responsible for transporting the WebSocket messages between the client and server over the network. This can include TCP/IP, SSL/TLS encryption, and other network protocols.
+
+Network Layer: The network layer is responsible for routing the WebSocket messages between the client and server over the Internet. This can include routers, switches, and other networking equipment.
+
+Overall, the WebSocket architecture is designed to provide a simple and efficient way for clients and servers to communicate in real-time over a persistent, bi-directional connection. The client and server exchange messages using the WebSocket protocol, while the application layer handles the business logic and the transport and network layers handle the communication over the network.
