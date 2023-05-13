@@ -1,0 +1,18 @@
+
+The key members of a RESTful API are:
+
+Resources: A resource is an object or entity that the API exposes, such as a user, a product, or a customer order.
+
+HTTP methods: RESTful APIs use HTTP methods (such as GET, POST, PUT, and DELETE) to perform operations on resources.
+
+URLs: Resources are identified using URLs, which typically follow a hierarchical structure based on the relationships between the resources.
+
+Representations: Representations are the formats in which the resource data is returned, such as JSON or XML.
+
+Status codes: RESTful APIs use HTTP status codes (such as 200 OK, 404 Not Found, and 500 Internal Server Error) to indicate the success or failure of a request.
+
+Headers: HTTP headers provide additional information about the request or response, such as the content type or authentication credentials.
+
+Query parameters: Query parameters can be used to modify the behavior of a request or filter the results returned by a resource.
+
+Together, these members provide a standardized and predictable interface for accessing and manipulating resources over the web.
