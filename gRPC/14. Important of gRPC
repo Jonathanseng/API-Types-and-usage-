@@ -1,0 +1,18 @@
+
+gRPC is an important technology for building high-performance, scalable, and efficient distributed systems. Here are some of the key reasons why gRPC is important:
+
+Performance: gRPC is built on top of the highly efficient HTTP/2 protocol and uses binary serialization with Protocol Buffers. This can help to reduce network usage and improve performance, especially for large-scale distributed systems.
+
+Language agnostic: gRPC is a language-agnostic framework, which means that you can use it to build distributed systems in a variety of programming languages. This can make it easier to build heterogeneous systems with different components written in different languages.
+
+Strong typing: gRPC uses Protocol Buffers to define the messages and services in your system, which provides a strong typing system that can help to catch errors early and make it easier to maintain your system over time.
+
+Interoperability: gRPC can interoperate with other systems that use different protocols, such as HTTP/1.1 or raw TCP. This can make it easier to integrate gRPC into existing systems and services.
+
+Code generation: gRPC provides tools for generating code from your Protocol Buffer definitions, which can help to reduce boilerplate code and make it easier to get started with gRPC.
+
+Scalability: gRPC provides features like bi-directional streaming and client-side load balancing that can help to improve the scalability of your distributed system.
+
+Security: gRPC supports transport-level security (TLS) and authentication and authorization mechanisms that can help to secure your distributed system.
+
+Overall, gRPC is an important technology for building high-performance, scalable, and efficient distributed systems that can help to power modern, cloud-native applications.
