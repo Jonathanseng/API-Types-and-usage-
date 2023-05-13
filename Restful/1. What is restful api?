@@ -1,0 +1,14 @@
+
+REST (Representational State Transfer) is an architectural style for building web services that uses HTTP as its communication protocol. A RESTful API is a web service that follows the REST architecture principles. RESTful APIs provide a way for applications to interact with a server in a stateless manner, meaning that each request from the client contains all the information necessary for the server to fulfill that request, without any state being stored on the server.
+
+Some common applications of RESTful APIs include:
+
+Web applications: RESTful APIs are commonly used to provide data to web applications, which can then display that data to users in a user-friendly way. For example, a weather app might use a RESTful API to get weather data from a server and display it to the user.
+
+Mobile applications: RESTful APIs are also commonly used to provide data to mobile applications. Mobile apps can use RESTful APIs to access data stored on a server, such as user profiles, product information, or other types of data.
+
+Internet of Things (IoT) devices: RESTful APIs are also used in IoT devices to enable them to communicate with other devices or with servers over the internet. For example, a smart thermostat might use a RESTful API to get weather data from a server and adjust its temperature settings accordingly.
+
+Microservices: RESTful APIs are often used to build microservices, which are small, independent services that work together to form a larger application. Each microservice typically exposes a RESTful API that other microservices can use to access its functionality.
+
+Overall, RESTful APIs are a widely used and versatile technology that can be used in a variety of applications, ranging from web and mobile applications to IoT devices and microservices.
