@@ -1,0 +1,10 @@
+
+GraphQL is an open-source data query and manipulation language for APIs, as well as a runtime for executing those queries by using a type system you define for your data. It was developed by Facebook and released as an open-source project in 2015.
+
+GraphQL allows you to describe the data requirements of your application using a query language that clients can use to request only the data they need. Unlike traditional REST APIs, which return fixed data structures, GraphQL allows clients to specify exactly what data they need and receive precisely that data in a single request. This reduces the amount of data that needs to be transmitted over the network and can improve the performance of your application.
+
+GraphQL has gained popularity in recent years, and many companies and organizations have adopted it as an alternative to traditional REST APIs. It is used by companies such as Facebook, GitHub, and Yelp, among many others.
+
+
+
+
