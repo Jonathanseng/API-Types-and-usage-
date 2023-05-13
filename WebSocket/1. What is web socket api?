@@ -1,0 +1,6 @@
+
+WebSockets is an advanced technology that enables bidirectional communication over a single, long-lived connection between a client and a server. It allows real-time communication between a web browser and a server, facilitating instant data transfer and reducing the need for constant polling of the server for updates.
+
+The WebSocket API provides a set of JavaScript methods for creating and managing WebSocket connections, as well as sending and receiving data over the connection. The API includes events for handling connection state changes, such as when the connection is established or closed.
+
+WebSockets are widely used in web applications that require real-time data transfer, such as online gaming, chat applications, and stock market tickers. With WebSockets, developers can build responsive and engaging applications that provide a seamless user experience.
