@@ -1,0 +1,16 @@
+
+Some of the limitations of RESTful APIs include:
+
+Limited functionality: RESTful APIs are primarily designed for CRUD (Create, Read, Update, Delete) operations on resources, and may not support more complex workflows or operations.
+
+Scalability issues: As the number of requests to a RESTful API grows, it may become difficult to scale horizontally due to limitations in server resources or network bandwidth.
+
+Complex versioning: RESTful APIs may require versioning to ensure compatibility between different versions of the API, which can add complexity to the API design and usage.
+
+Security concerns: While RESTful APIs can be secured using standard HTTPS protocols, there are still potential security concerns such as cross-site scripting (XSS) attacks or SQL injection attacks.
+
+Performance overhead: RESTful APIs use HTTP requests, which can introduce performance overhead due to the overhead of the HTTP protocol and the need to transfer data over the network.
+
+Lack of standardization: While RESTful APIs follow a general set of principles and guidelines, there is no strict standard for how they should be implemented, leading to potential inconsistencies in API design and usage.
+
+Overall, while RESTful APIs are a popular and widely-used approach for building web and mobile applications, they do have some limitations and may not be suitable for all applications and use cases.
