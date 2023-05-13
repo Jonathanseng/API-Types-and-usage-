@@ -1,0 +1,14 @@
+
+RESTful APIs work by using HTTP (Hypertext Transfer Protocol) methods to transfer data between a client (such as a web browser or mobile app) and a server. The following are the key features of how RESTful APIs work:
+
+Resources: RESTful APIs expose resources, which are usually represented by URLs (Uniform Resource Locators). Each resource is identified by a unique URL, such as /users or /products/123.
+
+HTTP methods: RESTful APIs use HTTP methods (also known as verbs) to interact with resources. The most common HTTP methods used in RESTful APIs are GET (to retrieve a resource), POST (to create a new resource), PUT (to update an existing resource), and DELETE (to delete a resource).
+
+Request and response payloads: RESTful APIs use a variety of data formats to send and receive data between the client and server, such as JSON (JavaScript Object Notation), XML (Extensible Markup Language), or plain text. The data sent in a request payload (e.g., when creating or updating a resource) and the data returned in a response payload (e.g., when retrieving a resource) are usually in one of these formats.
+
+Stateless: RESTful APIs are stateless, meaning that each request from the client contains all the information necessary for the server to fulfill that request, without any state being stored on the server. This makes it easier to scale the API and handle a large number of requests.
+
+Caching: RESTful APIs can take advantage of HTTP caching, which allows clients to store responses from the server for later use. This can help to reduce the number of requests that need to be sent to the server and improve performance.
+
+Overall, RESTful APIs provide a standard way for applications to interact with a server, making it easier to build and maintain web and mobile applications that rely on accessing data from a server.
