@@ -1,0 +1,13 @@
+RESTful APIs do not have a schema in the same way that GraphQL APIs do. Instead, they typically use HTTP methods (such as GET, POST, PUT, and DELETE) to perform operations on resources identified by URLs.
+
+Here's an example of a simple RESTful API schema for a hypothetical "users" resource:
+
+GET /users - Retrieves a list of users
+GET /users/{id} - Retrieves a specific user by ID
+POST /users - Creates a new user
+PUT /users/{id} - Updates an existing user by ID
+DELETE /users/{id} - Deletes an existing user by ID
+
+In this schema, the GET method is used to retrieve a list of users or a specific user by ID. The POST method is used to create a new user, and the PUT method is used to update an existing user by ID. Finally, the DELETE method is used to delete an existing user by ID.
+
+This is just a basic example, but RESTful APIs can support a wide range of resources and operations using HTTP methods and URLs to provide a consistent and standardized interface for accessing and manipulating resources.
