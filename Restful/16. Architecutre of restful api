@@ -1,0 +1,16 @@
+
+The architecture of a RESTful API can be represented using the following components:
+
+Resource: A resource is an object or representation of data that can be accessed and manipulated by the client. Resources are identified by URIs (Uniform Resource Identifiers) that uniquely identify the resource.
+
+HTTP Methods: RESTful APIs use HTTP methods to represent the actions that can be performed on resources. The most commonly used HTTP methods are GET, POST, PUT, and DELETE.
+
+Representation: A representation is a format used to transmit data between the client and server. RESTful APIs commonly use JSON (JavaScript Object Notation) and XML (eXtensible Markup Language) representations.
+
+Request: A request is made by the client to the server to perform an action on a resource. The request typically includes a URI that identifies the resource and an HTTP method that specifies the action to be performed.
+
+Response: A response is sent by the server to the client after processing a request. The response typically includes a representation of the resource and an HTTP status code that indicates whether the request was successful or not.
+
+Hypermedia: Hypermedia is the inclusion of links in the representations of resources, which allows the client to navigate to related resources and perform actions on them.
+
+Overall, the architecture of a RESTful API is designed to be simple, scalable, and stateless, making it an effective way to build web and mobile applications that need to access and manipulate data over the internet.
