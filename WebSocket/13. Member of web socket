@@ -1,0 +1,12 @@
+
+WebSocket has two primary members: the client and the server.
+
+The client is typically a web browser or a mobile application that initiates the WebSocket connection with the server. The client sends a handshake request to the server using the WebSocket protocol, and if the handshake is successful, the client can send and receive messages to and from the server in real-time.
+
+The server is the application that handles the WebSocket connection and the messages sent and received through the connection. The server can be implemented in any programming language and run on any platform that supports the WebSocket protocol. The server receives the handshake request from the client, processes it, and sends a response back to the client to establish the WebSocket connection. Once the connection is established, the server can send and receive messages to and from the client in real-time.
+
+WebSocket also has a few additional members that are involved in the communication process. These include:
+
+The WebSocket protocol, which defines the rules for establishing and maintaining the WebSocket connection and the format of the messages that can be sent and received through the connection.
+The WebSocket API, which is a set of JavaScript APIs that enable developers to interact with WebSocket connections in web browsers and other client applications.
+The WebSocket library, which is a software library that implements the WebSocket protocol and enables developers to build WebSocket-enabled applications quickly and easily.
