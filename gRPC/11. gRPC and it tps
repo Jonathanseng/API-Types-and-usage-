@@ -1,0 +1,5 @@
+gRPC is known for its high performance and low latency compared to other RPC frameworks like SOAP or REST. The maximum transaction per second (TPS) that a gRPC API can handle depends on a variety of factors such as the hardware and network resources available, the complexity of the API, and the size of the data being transmitted.
+
+In general, gRPC can handle a significantly higher TPS than traditional REST APIs due to its use of binary serialization (using Protocol Buffers) and its support for bi-directional streaming. According to benchmarks conducted by the gRPC team, gRPC can handle TPS in the range of tens of thousands to millions, depending on the use case and deployment configuration.
+
+However, it's important to note that achieving high TPS requires careful optimization and tuning of the API and the underlying infrastructure. It's also important to design the API with scalability and performance in mind from the beginning to avoid bottlenecks and performance issues as the API grows in usage and complexity.
