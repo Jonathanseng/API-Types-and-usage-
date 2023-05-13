@@ -1,0 +1,20 @@
+
+RESTful APIs have several important attributes, including:
+
+Resource-based: RESTful APIs are based on the concept of resources, which are exposed through unique URIs (Uniform Resource Identifiers). Each resource represents a data entity or a collection of data entities that can be accessed, manipulated, and shared.
+
+Stateless: RESTful APIs are stateless, meaning that each request from the client contains all the necessary information to complete the request. The server does not maintain any client context or session information.
+
+Client-server architecture: RESTful APIs follow a client-server architecture, in which the client initiates requests and the server responds with resources.
+
+Uniform interface: RESTful APIs use a uniform interface that defines the interactions between the client and the server. The interface includes standard HTTP methods (GET, POST, PUT, DELETE), resource representations (JSON, XML), and status codes (200, 404, 500).
+
+Cacheable: RESTful APIs can be designed to be cacheable, meaning that the client can store responses in a local cache and reuse them for future requests. This can improve performance and reduce network traffic.
+
+Layered system: RESTful APIs can be designed as a layered system, in which the client interacts only with the immediate server and is unaware of any intermediate servers that might be involved in the request processing.
+
+Overall, these attributes provide a standardized and scalable way to access and manipulate resources over the web, making RESTful APIs an important tool for modern web and mobile applications.
+
+
+
+
