@@ -1,0 +1,14 @@
+
+SOAP (Simple Object Access Protocol) APIs are an older technology for building web APIs. While RESTful APIs have become more popular in recent years, there are still some cases where SOAP APIs are used. Here are some reasons why we need SOAP APIs:
+
+Built-in security: SOAP APIs include built-in security features such as WS-Security, which provides a framework for secure message exchange. This makes SOAP APIs a good choice for applications that require a high level of security.
+
+Reliable messaging: SOAP APIs support reliable messaging through features such as message acknowledgement and retries. This makes them a good choice for applications that require a high level of reliability.
+
+Formal contracts: SOAP APIs use formal contracts, such as WSDL (Web Services Description Language), which defines the messages, operations, and bindings for the API. This makes it easier for clients to understand the API and use it correctly.
+
+Strong typing: SOAP APIs use XML Schema for type definition, which provides a strongly typed interface between the client and server. This can help prevent errors and make it easier to validate data.
+
+Legacy systems: Some legacy systems may still use SOAP APIs, and it may not be feasible to migrate to a newer technology. In these cases, SOAP APIs may be the only option.
+
+Overall, while SOAP APIs are not as popular as they once were, they still have some advantages in certain situations. Their built-in security, reliable messaging, formal contracts, strong typing, and compatibility with legacy systems make them a good choice for applications that require these features. However, for most new API development, RESTful APIs are the more popular and flexible choice.
