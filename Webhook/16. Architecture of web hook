@@ -1,0 +1,18 @@
+
+Webhooks are a simple and flexible architecture that allows different systems to communicate and integrate with each other in real-time. Here is a high-level overview of the typical architecture of webhooks:
+
+Sender: The sender is the system that triggers the webhook. This can be any system that has the capability to send HTTP requests, such as a web application, mobile app, or IoT device.
+
+Receiver: The receiver is the system that receives the webhook and performs some action based on the data in the payload. This can be any system that has an API endpoint to receive HTTP requests, such as a web service, serverless function, or microservice.
+
+Event: The event is the trigger or action that initiates the webhook. This can be any event that is meaningful to the sender and relevant to the receiver, such as a new user sign-up, a payment processed, or a new order created.
+
+Payload: The payload is the data that is sent as part of the webhook request. This can include information about the event, any associated data, and any instructions for the receiving system.
+
+Endpoint: The endpoint is the URL where the webhook request is sent. This is typically an API endpoint provided by the receiving system.
+
+HTTP Method: The HTTP method is the protocol used to send the webhook request. This is typically POST, but can also be GET, PUT, or DELETE.
+
+Authentication: Authentication is the mechanism used to verify the identity of the sender and ensure that the webhook request is coming from a trusted source. This can include using a shared secret or a digital signature.
+
+Overall, the architecture of webhooks is simple and flexible, allowing different systems and applications to integrate with each other in a seamless and automated way. By leveraging webhooks, businesses can automate processes and workflows, improve data accuracy and timeliness, and enhance overall efficiency and productivity.
