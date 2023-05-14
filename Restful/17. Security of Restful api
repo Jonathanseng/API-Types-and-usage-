@@ -1,0 +1,14 @@
+
+RESTful APIs have been a popular choice for building web applications for many years. Like GraphQL, RESTful APIs have several built-in security features that make them a secure choice for building web applications. Here are some of the key security features of RESTful APIs:
+
+Authorization and Authentication: RESTful APIs typically use token-based authentication and authorization protocols such as OAuth 2.0 or JSON Web Tokens (JWTs) to secure access to resources. This allows developers to define custom authorization and authentication logic using middleware, and restrict access to certain resources based on user roles or permissions.
+
+Input Validation: Like GraphQL, RESTful APIs support input validation to prevent SQL injection attacks and other types of data manipulation attacks.
+
+SSL Encryption: RESTful APIs can be used over HTTPS, which provides SSL encryption to protect against man-in-the-middle attacks and other types of network eavesdropping.
+
+Rate Limiting: RESTful APIs support rate limiting to prevent excessive use of resources or denial of service attacks.
+
+Versioning: RESTful APIs can be versioned to ensure that changes to the API do not break existing clients, which can help prevent security issues from arising due to changes in the API.
+
+In summary, RESTful APIs have a robust security model that can be customized to meet the specific security requirements of a web application. However, as with any web technology, it is important to follow best practices and stay up-to-date with security patches and updates to ensure the ongoing security of your RESTful API-based application.
