@@ -1,0 +1,14 @@
+
+gRPC API is a modern technology for building high-performance, scalable, and efficient APIs. Here are some reasons why we need gRPC API:
+
+Performance: gRPC API uses protocol buffers as its data serialization format, which is more efficient and faster than traditional JSON-based APIs. This makes it a good choice for applications that require high performance.
+
+Scalability: gRPC API is designed to be highly scalable, allowing for efficient communication between a large number of clients and servers.
+
+Code generation: gRPC API provides code generation for multiple programming languages, making it easier for developers to write code that interacts with the API.
+
+Bi-directional streaming: gRPC API supports bi-directional streaming, allowing for real-time communication between the client and server.
+
+Service discovery: gRPC API supports service discovery through tools such as Consul and etcd, making it easier for clients to find and connect to the appropriate service.
+
+Overall, gRPC API provides a modern, efficient, and scalable solution for building APIs. Its performance, scalability, code generation, bi-directional streaming, and service discovery features make it a good choice for applications that require these features. Additionally, gRPC API can be used with a wide range of programming languages, making it a versatile and flexible choice for developers.
