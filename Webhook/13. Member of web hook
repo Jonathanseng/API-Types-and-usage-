@@ -1,0 +1,12 @@
+
+Webhooks typically involve two main components: a sender and a receiver. Here's a breakdown of the members involved in a webhook:
+
+Sender: The sender is the system or application that initiates the webhook request. This could be a web application, a server, or any other system that can send HTTP requests. The sender typically sends an HTTP POST request to a webhook endpoint provided by the receiver.
+
+Receiver: The receiver is the system or application that receives the webhook request and takes action based on the data contained in the request. This could be a web application, a server, or any other system that can receive HTTP requests. The receiver typically listens for incoming HTTP requests on a webhook endpoint and processes the payload contained in the request.
+
+Webhook Endpoint: The webhook endpoint is a URL provided by the receiver that the sender uses to send the HTTP request. The endpoint is typically an API endpoint that is designed to receive and process incoming webhook requests.
+
+Payload: The payload is the data contained in the webhook request that is sent from the sender to the receiver. The payload typically includes information about the event that triggered the webhook and any associated data.
+
+Authentication: Webhooks may include an authentication mechanism to ensure that the request is coming from a trusted source. This could include using a shared secret or a digital signature to authenticate the request.
