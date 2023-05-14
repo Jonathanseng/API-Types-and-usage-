@@ -1,0 +1,14 @@
+
+WebSocket API is a newer technology for building real-time, two-way communication between the client and server. Here are some reasons why we need WebSocket API:
+
+Real-time communication: WebSocket API enables real-time, two-way communication between the client and server, allowing for faster data transfer and more responsive applications.
+
+Reduced latency: With WebSocket API, the server can send data to the client as soon as it becomes available, reducing the latency and making applications more responsive.
+
+Efficiency: WebSocket API reduces overhead by allowing for persistent connections between the client and server. This eliminates the need for repeated connection requests, reducing the amount of data sent over the network and improving performance.
+
+Scalability: WebSocket API enables real-time communication between a large number of clients and servers, making it a good choice for applications that require high scalability.
+
+Compatibility: WebSocket API is compatible with most modern web browsers and can be used with a wide range of programming languages.
+
+Overall, WebSocket API provides a powerful and efficient way to enable real-time, two-way communication between the client and server. By reducing latency, improving efficiency, enabling scalability, and being compatible with most modern web browsers, WebSocket API makes it easier for developers to create responsive and efficient applications.
