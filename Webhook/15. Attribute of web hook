@@ -1,0 +1,18 @@
+
+Webhooks typically have several attributes or characteristics that define how they operate and what they do. Here are some common attributes of webhooks:
+
+Event: The event is the trigger or action that initiates the webhook. For example, a user signup or a payment processed event.
+
+Payload: The payload is the data that is sent as part of the webhook request. This can include information about the event, any associated data, and any instructions for the receiving system.
+
+Endpoint: The endpoint is the URL where the webhook request is sent. This is typically an API endpoint provided by the receiving system.
+
+Method: The method is the HTTP method used to send the webhook request. This is typically POST, but can also be GET, PUT, or DELETE.
+
+Authentication: Authentication is the mechanism used to verify the identity of the sender and ensure that the webhook request is coming from a trusted source. This can include using a shared secret or a digital signature.
+
+Retry Policy: The retry policy determines how many times the webhook will be retried if the initial request fails or times out. This can be set by the sender or the receiver.
+
+Error Handling: The error handling process defines what happens if the webhook request fails or returns an error. This can include sending a notification to the sender, logging the error, or attempting to retry the request.
+
+Overall, these attributes define the behavior and functionality of webhooks, allowing different systems and applications to communicate and integrate with each other in a seamless and automated way.
