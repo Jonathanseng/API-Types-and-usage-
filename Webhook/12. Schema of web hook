@@ -1,0 +1,12 @@
+
+Webhooks don't have a specific schema or format since they are essentially just HTTP requests that are sent from one system to another. However, there are some common components that are typically included in a webhook payload:
+
+Event type: This identifies the type of event that triggered the webhook. For example, a user signup event or a payment processed event.
+
+Event data: This includes any relevant data associated with the event. For example, the user's email address or the payment amount.
+
+Timestamp: This indicates the time that the event occurred.
+
+Signature: This is an optional component that can be used to authenticate the webhook request and ensure that it came from a trusted source.
+
+The specific schema or format of the webhook payload can vary depending on the systems involved and the data being transmitted. The receiving system will typically provide documentation or guidance on the expected format and content of the webhook payload.
