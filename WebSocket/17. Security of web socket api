@@ -1,0 +1,14 @@
+
+WebSockets are a protocol that allows for real-time bidirectional communication between a web browser and a server over a single persistent connection. While WebSockets can improve the user experience of web applications, they also introduce new security considerations. Here are some of the key security features of WebSockets:
+
+Authorization and Authentication: WebSockets use the same authorization and authentication mechanisms as other web technologies, such as cookies and session tokens. Developers can use middleware to restrict access to WebSockets based on user roles or permissions.
+
+Encryption: WebSockets support SSL/TLS encryption to protect data transmitted over the connection. This can help prevent man-in-the-middle attacks and eavesdropping.
+
+Input Validation: Like other web technologies, WebSockets support input validation to prevent SQL injection attacks and other types of data manipulation attacks.
+
+Rate Limiting: WebSockets support rate limiting to prevent excessive use of resources or denial of service attacks.
+
+Cross-Site WebSocket Hijacking (CSWSH) Prevention: CSWSH is a type of attack that can allow an attacker to impersonate a legitimate user and gain access to their WebSocket session. Developers can prevent this type of attack by using WebSocket-specific techniques such as origin checking, cookie validation, and session management.
+
+In summary, WebSockets have several built-in security features that make them a secure choice for building real-time web applications. However, it is important for developers to follow best practices and stay up-to-date with security patches and updates to ensure the ongoing security of their WebSocket-based application.
