@@ -1,0 +1,16 @@
+
+GraphQL has several built-in security features that make it a secure choice for building web applications. Here are some of the key security features of GraphQL:
+
+Authorization and Authentication: GraphQL allows developers to define custom authorization and authentication logic using middleware. This can be used to restrict access to certain fields or types of data based on user roles or permissions.
+
+Query Depth Limiting: GraphQL allows developers to limit the depth of a query, which can help prevent denial of service attacks that exploit deep or recursive queries.
+
+Input Validation: GraphQL supports input validation to prevent SQL injection attacks and other types of data manipulation attacks.
+
+Type System: GraphQL's type system allows developers to define a schema for their data, which can help prevent unintentional data leaks or exposure.
+
+Rate Limiting: GraphQL supports rate limiting to prevent excessive use of resources or denial of service attacks.
+
+SSL Encryption: GraphQL can be used over HTTPS, which provides SSL encryption to protect against man-in-the-middle attacks and other types of network eavesdropping.
+
+In summary, GraphQL has a robust security model that can be customized to meet the specific security requirements of a web application. However, as with any web technology, it is important to follow best practices and stay up-to-date with security patches and updates to ensure the ongoing security of your GraphQL-based application.
