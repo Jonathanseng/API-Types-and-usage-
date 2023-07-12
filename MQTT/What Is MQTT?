@@ -1,0 +1,1 @@
+MQTT is a lightweight messaging protocol that is designed for machine-to-machine communication. It is a good choice for applications that need to send small amounts of data over a low-bandwidth connection, such as IoT devices. 
